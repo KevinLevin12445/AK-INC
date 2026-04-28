@@ -84,7 +84,7 @@ import yfinance as yf
 # ══════════════════════════════════════════════════════════════════════════════
 
 # ── CONFIGURACIÓN Finnhub ──────────────────────────────────────────────────────────
-FINNHUB_API_KEY = os.environ.get("FINNHUB_API_KEY", "d7lnma9r01qk7lvto8i")
+FINNHUB_API_KEY = os.environ.get("FINNHUB_API_KEY", "d7og4rhr01qsb7beqjsgd7og4rhr01qsb7beqjt0")
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 FINNHUB_WS = "wss://ws.finnhub.io"
 FINNHUB_HEADERS = {"User-Agent": "K-AURUM/10.0", "Accept": "application/json"}

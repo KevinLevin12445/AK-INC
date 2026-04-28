@@ -28,7 +28,7 @@ C_BLUE  = '#4B9FFF'
 C_GRAY  = '#808080'
 BG      = '#0E1117'
 
-FINNHUB_API_KEY = "d7lnma9r01qk7lvto8i0d7lnma9r01qk7lvto8ig"
+FINNHUB_API_KEY = "d7og4rhr01qsb7beqjsgd7og4rhr01qsb7beqjt0"
 
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 
