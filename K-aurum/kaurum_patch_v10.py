@@ -17,6 +17,7 @@ Cambios:
 import re, threading, time, datetime
 from collections import deque
 import numpy as np
+NEWS_UPDATE_MS = 5000 
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  1. TRADUCTOR DE NOTICIAS + PROBABILIDAD DIRECCIONAL
