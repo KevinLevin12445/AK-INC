@@ -28,13 +28,7 @@ C_BLUE  = '#4B9FFF'
 C_GRAY  = '#808080'
 BG      = '#0E1117'
 
-# ── API KEY: usa st.secrets en producción ──────────────────────
-# En Streamlit Cloud: Settings → Secrets → FINNHUB_API_KEY = "tu_key"
-# Localmente: crea .streamlit/secrets.toml con esa línea
-try:
-    FINNHUB_API_KEY = st.secrets["FINNHUB_API_KEY"]
-except Exception:
-    FINNHUB_API_KEY = "d7lnma9r01qk7lvto8i0d7lnma9r01qk7lvto8ig"  # fallback dev
+FINNHUB_API_KEY = "d7lnma9r01qk7lvto8i0d7lnma9r01qk7lvto8ig"
 
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 
